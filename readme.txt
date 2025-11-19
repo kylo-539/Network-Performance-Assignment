@@ -20,10 +20,15 @@ the files used for WiFi6 analysis. Subsequently, the subfolder "Wifi7" contains 
 The main folder, "QuestionC", contains the CSV produced, alongside all the images used in the report. 
 
 During the installation of NS3, there were several issues that had to be addressed before the examples would work properly.
-The changes to all these files were made to the .cc file and .h files located in the folder "NS3-Fix". The folder is named this 
-so I could easily distinguish between the file I was currently altering vs the files I was overwriting within the NS3 environment.
+The changes to all these files were made to the .cc file and .h files located in the folder "NS3-Fix". For Question C, I
+copy and pasted all the relevant sections from the code used for Questions A and B and altered it
+to be wrapped in loops so that one run would cause all parameters to be simulated (each user count,
+for each distance, for each wifi standard). The code used for Questions A and B is underneath this code,
+commented out but it still works. Uncomment it to return to the code used for these questions. 
+
+The folder is named this so I could easily distinguish between the file I was currently altering vs the files I was overwriting within the NS3 environment.
 This was necessary as I was copy and pasting the changed file, "wifi-example-sim-updated.cc", into the folder in NS3 in Ubuntu. 
 This was done from File Explorer so I wanted to maintain clarity between tabs, especially for a project that spanned mutliple
 weeks. 
 
-The code has also been added to a repository on GitHub, url:  
+The code has also been added to a repository on GitHub, url: https://github.com/kylo-539/Network-Performance-Assignment 

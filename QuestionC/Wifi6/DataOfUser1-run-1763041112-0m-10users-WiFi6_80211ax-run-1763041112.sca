@@ -1,0 +1,90 @@
+run run-1763041112
+attr experiment "wifi-example-sim"
+attr strategy "wifi-default"
+attr measurement "dist0_users10_WiFi6_80211ax"
+attr description ""
+attr "author" "EEN1058-KYLE-SHEEHY"
+
+scalar . measurement "dist0_users10_WiFi6_80211ax"
+scalar node[0] wifi-tx-frames 124976
+scalar node[1] wifi-rx-frames 12508
+scalar node[2] wifi-rx-frames 12510
+scalar node[3] wifi-rx-frames 12504
+scalar node[4] wifi-rx-frames 12504
+scalar node[5] wifi-rx-frames 12506
+scalar node[6] wifi-rx-frames 12503
+scalar node[7] wifi-rx-frames 12507
+scalar node[8] wifi-rx-frames 12509
+scalar node[9] wifi-rx-frames 12510
+scalar node[0] sender-tx-packets 12500
+scalar node[1] receiver-rx-packets 12498
+scalar . delay-count 12498
+scalar . delay-total 14392241067
+scalar . delay-average 1151563
+scalar . delay-max 38244974
+scalar . delay-min 110000
+scalar node[0] sender-tx-packets 12500
+scalar node[2] receiver-rx-packets 12500
+scalar . delay-count 12500
+scalar . delay-total 17396680490
+scalar . delay-average 1391734
+scalar . delay-max 41886845
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[3] receiver-rx-packets 12494
+scalar . delay-count 12494
+scalar . delay-total 18950844348
+scalar . delay-average 1516795
+scalar . delay-max 41035194
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[4] receiver-rx-packets 12494
+scalar . delay-count 12494
+scalar . delay-total 18393521368
+scalar . delay-average 1472188
+scalar . delay-max 40518791
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[5] receiver-rx-packets 12496
+scalar . delay-count 12496
+scalar . delay-total 17344477421
+scalar . delay-average 1388002
+scalar . delay-max 39171948
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[6] receiver-rx-packets 12493
+scalar . delay-count 12493
+scalar . delay-total 16815109432
+scalar . delay-average 1345962
+scalar . delay-max 41831965
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[7] receiver-rx-packets 12497
+scalar . delay-count 12497
+scalar . delay-total 16881456602
+scalar . delay-average 1350840
+scalar . delay-max 44702931
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[8] receiver-rx-packets 12499
+scalar . delay-count 12499
+scalar . delay-total 17154140496
+scalar . delay-average 1372441
+scalar . delay-max 42610794
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[9] receiver-rx-packets 12500
+scalar . delay-count 12500
+scalar . delay-total 19031458367
+scalar . delay-average 1522516
+scalar . delay-max 41975093
+scalar . delay-min 92000
+scalar node[0] sender-tx-packets 12500
+scalar node[10] receiver-rx-packets 12492
+scalar . delay-count 12492
+scalar . delay-total 19679933183
+scalar . delay-average 1575402
+scalar . delay-max 43851965
+scalar . delay-min 154000
+
+

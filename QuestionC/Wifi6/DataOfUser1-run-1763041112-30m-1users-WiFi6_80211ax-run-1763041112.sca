@@ -1,0 +1,18 @@
+run run-1763041112
+attr experiment "wifi-example-sim"
+attr strategy "wifi-default"
+attr measurement "dist30_users1_WiFi6_80211ax"
+attr description ""
+attr "author" "EEN1058-KYLE-SHEEHY"
+
+scalar . measurement "dist30_users1_WiFi6_80211ax"
+scalar node[0] wifi-tx-frames 12499
+scalar node[0] sender-tx-packets 12500
+scalar node[1] receiver-rx-packets 12498
+scalar . delay-count 12498
+scalar . delay-total 1061840448
+scalar . delay-average 84960
+scalar . delay-max 7355691
+scalar . delay-min 76300
+
+

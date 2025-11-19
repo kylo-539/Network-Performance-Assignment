@@ -1,0 +1,27 @@
+run 
+attr experiment "wifi-example-sim"
+attr strategy "wifi-default"
+attr measurement "0"
+attr description ""
+attr "author" "EEN1058-KYLE-SHEEHY"
+
+scalar . measurement "0"
+scalar node[0] wifi-tx-frames 124998
+scalar node[1] wifi-rx-frames 124997
+scalar node[0] sender-tx-packets 125000
+scalar node[1] receiver-rx-packets 124996
+statistic node[0] tx-pkt-size
+field count 125000
+field sum 1.25e+08
+field mean 1000
+field min 1000
+field max 1000
+field sqrsum 4.45948e+08
+field stddev 0
+scalar . delay-count 124996
+scalar . delay-total 33546274902
+scalar . delay-average 268378
+scalar . delay-max 46542845
+scalar . delay-min 92000
+
+

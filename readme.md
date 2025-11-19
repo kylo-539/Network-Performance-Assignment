@@ -8,6 +8,7 @@
 This repository contains the analysis and simulation files for the Network Performance Assignment. The project analyses WiFi network performance using OMNeT++ simulation data, examining key metrics such as throughput, delay, and packet loss ratio across various scenarios.
 
 ## Repository Structure
+```
 
 ├── QuestionA/ # Question A simulation data
 │ ├── DataOfUser1--default-.sca # Default parameters
@@ -51,7 +52,6 @@ This repository contains the analysis and simulation files for the Network Perfo
   pip install pandas numpy matplotlib
 - NS3
 
-## Usage
 # Question A: Network Performance Metrics Analysis
 Analyses network performance with varying bit rates
 

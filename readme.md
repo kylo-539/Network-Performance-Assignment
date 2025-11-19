@@ -43,6 +43,7 @@ This repository contains the analysis and simulation files for the Network Perfo
 ├── QuestionC.py # Question C WiFi 6 vs WiFi 7 comparison script
 ├── readme.txt # Text description of file locations
 └── readme.md # This file
+```
 
 ## Prerequisites
 
